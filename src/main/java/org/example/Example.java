@@ -8,7 +8,7 @@ package org.example;
  public class Example{
      public static void main(String[] args) {
          int a=10;
-         int b=11;
+         int b=10;
          if (a==b) {
              throw new CoustomExcpetion("Equal");
          }else System.out.println("not equals");
